@@ -125,7 +125,7 @@ Fontumuzu tasarım ekranında görüntülüyoruz.
 
 - Property Animation ile ilgili olarak objectAnimator ile animator arasındaki farkı kısaca açıklayınız. 
 
-Arka plan rengi veya alfa değeri gibi bileşebib özelleiklerini belirli bir süre boyunca değiştiren animasyon türüdür. View ve view olmayan nesnelere uygulanabilir. View animasyondan en büyük farkı; view animasyonda view’in özellikleri değişmezken property animasyonda değişir.
+Arka plan rengi veya alfa değeri gibi bileşen özelliklerini belirli bir süre boyunca değiştiren animasyon türüdür. View ve view olmayan nesnelere uygulanabilir. View animasyondan en büyük farkı; view animasyonda view’in özellikleri değişmezken property animasyonda değişir.
 Mesela view animasyonda siyah bir butonu animasyon ile maviye dönüştürürsek animasyon bitince siyah renge geri döner. Fakat property animasyonda geri eski rengine dönmez. Sadece renk için değil boyut konum için de aynı durum geçerlidir. Değiştirilen değer artık o bileşenin kendi özelliği olur.
 3 farklı property animasyon sınıfı vardır:
 1)	Value Animator: Bu sınıf, animasyonlu değerleri hesaplayan ve bunları hedef nesnelere ayarlayan animasyonları çalıştırmak için basit bir zamanlama motoru sağlar.
